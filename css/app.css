@@ -9,6 +9,10 @@ ul, ol, menu {
     list-style: none;
 }
 
+body {
+    background-color: #fff;
+}
+
 /* regole di layout */
 .container {
     max-width: 1200px;
@@ -43,9 +47,34 @@ ul, ol, menu {
 }
 
 /* main */
-.hero {
+.hero, section {
     padding: 50px 15px;
+}
+
+.hero {
     background-color: #00008B;
+}
+
+section .row {
+    height: 500px;
+}
+
+.col-60 {
+    flex-basis: 60%;
+    background-color: #1E90FF;
+}
+
+.col-40 {
+    flex-basis: 40%;
+    background-color: #FFC0CB;
+}
+
+.content-2 {
+    background-color: #D3D3D3;
+}
+
+.content-2 .row {
+    flex-direction: row-reverse;
 }
 
 
