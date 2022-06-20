@@ -15,12 +15,18 @@ ul, ol, menu {
     margin: 0 auto;
 }
 
+.container-small {
+    max-width: 900px;
+    height: 400px;
+    margin: 0 auto;
+    background-color: #EE82EE;
+}
+
 .flex {
     display: flex;
 }
 
 /* main */
-
 .main-header {
     padding: 15px;
     background-color: #ADD8E6;
@@ -34,6 +40,12 @@ ul, ol, menu {
 
 .main-menu {
     gap: 15px;
+}
+
+/* main */
+.hero {
+    padding: 50px 15px;
+    background-color: #00008B;
 }
 
 
