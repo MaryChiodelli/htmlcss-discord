@@ -32,7 +32,7 @@ body {
 
 /* main */
 .main-header {
-    padding: 15px;
+    padding: 15px 25px;
     background-color: #ADD8E6;
 }
 
@@ -47,15 +47,15 @@ body {
 }
 
 /* main */
-.hero, section {
-    padding: 50px 15px;
+main > section {
+    padding: 50px 25px;
 }
 
 .hero {
     background-color: #00008B;
 }
 
-section .row {
+section.content .row {
     height: 500px;
 }
 
@@ -69,12 +69,17 @@ section .row {
     background-color: #FFC0CB;
 }
 
-.content-2 {
+main > section:nth-child(2n + 3) {
     background-color: #D3D3D3;
 }
 
-.content-2 .row {
+section.reverse .row {
     flex-direction: row-reverse;
+}
+
+main > section:last-child .container {
+    height: 900px;
+    background-color: #228B22;
 }
 
 
