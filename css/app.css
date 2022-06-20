@@ -1,0 +1,45 @@
+/* regole di reset */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+ul, ol, menu {
+    list-style: none;
+}
+
+/* regole di layout */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
+/* main */
+
+.main-header {
+    padding: 15px;
+    background-color: #ADD8E6;
+}
+
+.main-nav {
+    padding: 15px;
+    background-color: #DAA520;
+    justify-content: space-between;
+}
+
+.main-menu {
+    gap: 15px;
+}
+
+
+
+
+/* regole di debug */
+.debug * {
+    /* border: 1px solid red; */
+}
