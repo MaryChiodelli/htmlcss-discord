@@ -82,10 +82,43 @@ main > section:last-child .container {
     background-color: #228B22;
 }
 
+/* footer */
+footer {
+    background-color: #23272A;
+}
 
+footer section {
+    padding: 15px 25px 50px;
+    border-bottom: 1px solid #fff;
+}
 
+footer > div {
+    padding: 25px 25px 0;
+}
 
-/* regole di debug */
-.debug * {
-    /* border: 1px solid red; */
+footer .row {
+    height: 580px;
+}
+
+footer .col-lg {
+    flex-basis: calc( (100% / 6) * 2);
+    background-color: #F08080;
+}
+
+footer .col {
+    flex-basis: calc(100% / 6);
+    background-color: #20B2AA;
+}
+
+footer > div div.container {
+    justify-content: space-between;
+    padding: 25px 0;
+    background-color: #7FFFD4;
+}
+
+.logo, .bottone {
+    display: inline-block;
+    padding: 0 15px;
+    line-height: 35px;
+    background-color: #FFB6C1;
 }
