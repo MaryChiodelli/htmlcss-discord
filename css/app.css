@@ -22,6 +22,19 @@ a {
     text-decoration: none;
 }
 
+h1, h2 {
+    font-size: 48px;
+}
+
+h2 {
+    margin-bottom: 40px;
+}
+
+p {
+    font-size: 20px;
+    line-height: 1.5;
+}
+
 /* regole di layout */
 .container {
     max-width: 1200px;
@@ -76,7 +89,7 @@ main > section {
 }
 
 .section {
-    padding: 50px 15px;
+    padding: 50px 25px;
 }
 
 .hero {
@@ -86,13 +99,10 @@ main > section {
 }
 
 .hero__title {
-    font-size: 48px;
     margin-bottom: 45px;
 }
 
 .hero__description {
-    font-size: 20px;
-    line-height: 32px;
     margin-bottom: 15px;
 }
 
@@ -123,6 +133,18 @@ main > section {
 
 section.content .row {
     height: 500px;
+}
+
+.row {
+    display: flex;
+}
+
+.row-reverse {
+    flex-direction: row-reverse;
+}
+
+.col {
+    padding: 0 35px;
 }
 
 .col-60 {
@@ -190,6 +212,6 @@ footer .logo, footer .bottone {
 }
 
 /* regole di debug */
-.debug main .hero * {
-    /* border: 2px solid salmon; */
+.debug .hero ~ .section * {
+    border: 2px solid salmon;
 }
