@@ -49,10 +49,6 @@ p {
     color: white;
 }
 
-.flex {
-    display: flex;
-}
-
 /* header */
 .main-header {
     padding: 15px;
@@ -173,33 +169,42 @@ main > section:nth-child(2n + 3) {
 
 /* footer */
 footer {
+    color: white;
     background-color: #23272A;
 }
 
-footer section {
-    padding: 15px 25px 50px;
-    border-bottom: 1px solid #fff;
+footer .footer-widget {
+    padding: 75px 25px 30px;
 }
 
-footer > div {
+footer .footer-widget h5 {
+    font-size: 16px;
+    color: #7289DA;
+}
+
+footer .footer-widget h5,
+footer .footer-widget li {
+    margin-bottom: 20px;
+}
+
+footer .container {
+    border-bottom: 1px solid #7289DA;
+}
+
+footer .colophon {
     padding: 25px 25px 0;
 }
 
-footer .row {
-    height: 580px;
-}
-
-footer .col-lg {
+.col-4 {
     flex-basis: calc( (100% / 6) * 2);
-    background-color: #F08080;
 }
 
-footer .col {
+.col-2 {
     flex-basis: calc(100% / 6);
-    background-color: #20B2AA;
 }
 
-footer > div div.container {
+.colophon .container {
+    display: flex;
     justify-content: space-between;
     padding: 25px 0;
     background-color: #7FFFD4;
@@ -213,6 +218,6 @@ footer .logo, footer .bottone {
 }
 
 /* regole di debug */
-.debug .hero ~ .section * {
-    /* border: 2px solid salmon; */
+.debug footer * {
+    border: 2px solid salmon;
 }
