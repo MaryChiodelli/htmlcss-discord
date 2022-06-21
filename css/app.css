@@ -221,12 +221,12 @@ footer .footer-widget .row {
     margin: 0 -35px;
 }
 
-footer .container {
+footer .footer-widget .container {
     border-bottom: 1px solid #7289DA;
 }
 
 footer .colophon {
-    padding: 25px 25px 0;
+    padding: 25px 25px 50px;
 }
 
 .col-4 {
@@ -240,18 +240,9 @@ footer .colophon {
 .colophon .container {
     display: flex;
     justify-content: space-between;
-    padding: 25px 0;
-    background-color: #7FFFD4;
 }
 
-footer .logo, footer .bottone {
-    display: inline-block;
-    padding: 0 15px;
-    line-height: 35px;
-    background-color: #FFB6C1;
-}
-
-/* regole di debug */
-.debug footer * {
-    border: 2px solid salmon;
+.colophon .cta {
+    background-color: #7289DA;
+    color: white;
 }
